@@ -1,0 +1,153 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eaeded;
+
+}
+.divim{
+    background-color: #222f3e;
+}
+.d01{
+    background-color: #255;
+   tex: white;
+}
+.orange{
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 0.2cm;
+    padding-bottom: 0.2cm;
+}
+
+   
+ 
+.d02{
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    background-image: URL ('bg-image.png');
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+     text-align: center;
+    margin-top:-1cm ;
+    
+}
+.line{
+    display: run-in;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.border{
+    background-color: white;
+    margin-bottom: 0.5cm;
+}
+.d03{
+    
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 0.5cm;
+    padding-bottom: 0.5cm;
+    
+    
+}
+.img666{
+    
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 3px 15px #7e7e7e;
+    width: 280px; 
+    height: 380px;
+    border-radius: 20px;
+    margin: 20px 30px 0px 0px;
+}
+.a99{
+width: 100%;
+padding-bottom: 0cm;
+margin-bottom: 0cm;
+}
+.a00{
+    color:#222f3e;
+    text-decoration: none;
+    padding: 0px 0px 0px 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.divim a {
+    background-color: #222f3e;
+    color: white;
+}
+.find{
+    padding-top: 0.5cm;
+    padding-left:0.5cm;
+    display: block;
+}
+.top{
+    background-color: #255;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0.3cm;
+    padding-bottom: 0.3cm;
+}
+.lunghe a{
+  color: #255;
+  padding-top: -0.5; 
+  font: bold; 
+}
+
+#containers {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.box-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 333px;
+    height: 440px;
+}
+
+.box-container img {
+    width: 130px;
+    height: 100px;
+    position: relative;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.box-container p {
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.box-container span {
+    display: block;
+    position: relative;
+    padding-left: 20px;
+}
+
+.box-container a {
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+
+.box-items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20em;
+    height: 40em;
+}
+
+.items {
+    position: relative;
+    width: 160px;
+}
